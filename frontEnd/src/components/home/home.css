@@ -1,0 +1,35 @@
+.image-wrapper {
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding-left: 140px;
+    margin-bottom: 4%;
+}
+
+.image {
+    height:150px;
+    width:150px;
+    border: none;
+    border-radius: 5%;
+}
+
+.redHeart {
+    position: absolute;
+    background-color: black;
+    margin-left: 1%;
+    margin-top: 1%;
+    border: none;
+    border-radius: 20%; 
+}
+
+.download-link {
+    position: absolute;
+    background-color: white;
+    margin-left: 3%;
+    margin-top: 1%;
+    border: none;
+    border-radius: 20%; 
+}
+
+.add-fav {
+    cursor: pointer;
+}

@@ -1,0 +1,32 @@
+.landing-container{
+    width: 100%;
+    height: 100vh;
+}
+
+.landing-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(216, 213, 213);
+
+}
+
+.navlink-wrapper{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    height: 10vh;
+}
+
+.welcome-content{
+    width: 100%;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: blue;
+    font-weight: 600;
+}

@@ -1,0 +1,13 @@
+.image-wrapper {
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding-left: 140px;
+    margin-bottom: 4%;
+}
+
+.image {
+    height:150px;
+    width:150px;
+    border: none;
+    border-radius: 5%;
+}
