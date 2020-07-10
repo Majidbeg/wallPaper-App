@@ -12,18 +12,20 @@ exports.favImg = (req, res) => {
             uniqueUsername: uniqueUsername,
             downloadUrl: imgUrl,
         }
-        FavImage.findOne({ uniqueUsername: uniqueUsername }, (err, data) => {
+        FavImage.find({ uniqueUsername: uniqueUsername }, (err, data) => {
             FavImage.create(imgData, (err, data) => {
                 if (err) {
                     res.send({ msg: err.message })
-                } else {
+                }
+                else {
                     res.send('Added to favorite')
                 }
             })
+
         })
     }
 };
-
+ 
 exports.getFavImg = (req, res) => {
     if (!secretKey) {
         res.send(403)

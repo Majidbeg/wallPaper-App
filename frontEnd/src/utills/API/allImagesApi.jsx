@@ -2,8 +2,8 @@ import axios from 'axios';
 let url = process.env.REACT_APP_LOCAL_SERVER_URL;
 
 export default {
-    allImages: (uniqueUsername, email, password) => {
-        return axios.get('https://picsum.photos/v2/list?&limit=100')
+    allImages: (page) => {
+        return axios.get(`https://picsum.photos/v2/list?&limit=${page}`)
             .then((response) => response.data)
     },
 
