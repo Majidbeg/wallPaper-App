@@ -1,7 +1,7 @@
 # wallPaperApp
 
 #### clone repo by 
-    **git clone https://github.com/Majidbeg/wallPaper-App.git**.
+    git clone https://github.com/Majidbeg/wallPaper-App.git.
 
 
 
